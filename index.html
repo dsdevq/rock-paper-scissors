@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="game">
+      <h2 class="game__title">
+        CLICK TO CHOOSE
+      </h2>
+      </h3>
+      <h3 class="game__result"></h3>
+      <div class="game__img-container">
+        <img id="Scissors" value="scissors" src="./img/scissors.png" alt="scissors" class="game__img">
+        <img id="Paper" src="./img/paper.png" alt="paper" class="game__img">
+        <img id="Rock" src="./img/rock.png" alt="rock" class="game__img">
+      </div>
+      <div class="game__buttons-container">
+        <button class="game__button play-button">
+          Play
+        </button>
+        <button style="display: none; background-color: red;" class="game__button retry-button">
+          Retry
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
