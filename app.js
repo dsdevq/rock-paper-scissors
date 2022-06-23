@@ -35,7 +35,7 @@ const playRound = (playerSelection, computerSelection) => {
     ) {
     let win = false
     gameRules[playerSelection] === `${playerSelection} > ${computerSelection}` ? win = true : playerSelection === computerSelection ? win = null : win = false 
-    gameResult.innerHTML = win ? `You Win! ${playerSelection} beats ${computerSelection}` : win === null ? `Ничья` : `You Lose! ${computerSelection} beats ${playerSelection}`
+    gameResult.innerHTML = win ? `You Win! ${playerSelection} beats ${computerSelection}` : win === null ? `Draw` : `You Lose! ${computerSelection} beats ${playerSelection}`
     retryBtn.style.display = 'block'
   }
 }
