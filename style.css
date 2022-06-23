@@ -1,6 +1,8 @@
 body {
   background-color: #666;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
+  color: white;
 }
 .wrapper {
   padding-top: 10%;
@@ -10,7 +12,7 @@ body {
 .game {
   border-radius: 20px;
   background-color: #999;
-  border: 2px solid white;
+  border: 2px solid salmon;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -23,6 +25,7 @@ body {
 }
 .game__img-container {
   display: flex;
+  justify-content: center;
   gap: 10px;
 }
 .game__img {  
@@ -57,5 +60,7 @@ body {
 
 .game__buttons-container {
   display: flex;
+  justify-content: center;
+
   gap: 2rem;
 }
